@@ -1,0 +1,13 @@
+
+# Temporary/compiled files
+*.sav
+.DS_Store
+
+
+# Local/temporary directories
+bin/*
+data/*
+tmp/*
+logs/*
+products/*
+tools/*
