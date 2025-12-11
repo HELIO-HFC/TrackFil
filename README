@@ -3,7 +3,6 @@ About TrackFil
 
 The TrackFil software provides an algorithm to automatically track filaments on Sun images.
 
-<<<<<<<< HEAD:README
 TrackFil was initially developped in the framework of the HELIO Virtual Observatory European project (http://www.helio-vo.eu/), to populate its Heliophysics Feature Catalogue (HFC).
 TrackFil data results on the Meudon Spectroheliograph observations are available in the HFC web portal at: http://hfc.helio-vo.eu.
 
@@ -13,15 +12,7 @@ The software algorithm method is described in details in:
 
 Note that TrackFil software assumes that the solar filaments to be tracked have been previously detected.
 For instance, the HFC filaments are detected using the Fuller et al., 2005 algorithm (see 10.1007/s11207-005-8364-1).
-========
-TrackFil was initially designed to work with the solar filaments detected by the Fuller et al., 2005 method (10.1007/s11207-005-8364-1) on the Meudon Spectroheliograph Halpha observations. Nevertheless the algorithm can be easily adapted to be applied with other datasets.
 
-TrackFil data results on the Meudon Spectroheliograph observations are available in the Heliophysics Feature Catalog (HFC) Web portal at: http://hfc.helio-vo.eu.
-
-A description of the TrackFil algorithm can be found in Bonnin et al, 2012 (http://dx.doi.org/10.1007/s11207-012-9985-9).
-
-Trackfil was developped in the framework of the HELIO Virtual Observatory European project (http://www.helio-vo.eu/),
->>>>>>>> 856869f (Update TrackFil setup):README.md
 
 Content
 =======
@@ -35,15 +26,10 @@ It stores the following items:
      
      config/        configuration files providing the metadata and algorithm input parameters.
      
-<<<<<<<< HEAD:README
-     data/          can be used to store input data files.
-========
-     data/              can be used to store input data files
->>>>>>>> 856869f (Update TrackFil setup):README.md
+     data/          can be used to store input data files
+
+     hfc/           contains the wrapper for the HFC
      
-     hfc/               contains the wrapper for the HFC
-     
-<<<<<<<< HEAD:README
      lib/           contains external libraries required to run trackfil
      
      logs/          can be used to store log file
@@ -51,29 +37,12 @@ It stores the following items:
      products/      can be used to store trackfil data products
      
      scripts/       scripts to set up and run trackfil.
-========
-     lib/               contains external libraries required to run trackfil
-     
-     logs/              can be used to store log file
-     
-     products/          can be used to store trackfil data products
-     
-     scripts/           scripts to set up and run trackfil
->>>>>>>> 856869f (Update TrackFil setup):README.md
      
      setup_trackfil.csh main (t)csh script to set up TrackFil locally
 
      src/               code source files (written in IDL).
      
-<<<<<<<< HEAD:README
-     tmp/           can be used to store temporary files
-     
      tools/         extra tools (e.g., program to train trackfil).
-========
-     tmp/               can be used to store temporary files
-     
-     tools/             extra tools (e.g., program to train trackfil).
->>>>>>>> 856869f (Update TrackFil setup):README.md
 
 Installation
 ============
@@ -83,15 +52,9 @@ System requirements
 
 Trackfil has been tested and run on IDL 7.0.
 
-<<<<<<<< HEAD:README
 SolarSoft (SSW) is needed to run TrackFil. Visit http://www.lmsal.com/solarsoft/ for more details).
 
 Trackfil is designed to run with the (t)csh shell.
-========
-The core of SolarSoft (SSW) package shall be also installed and callable on your system. Visit http://www.lmsal.com/solarsoft/ to install and configure SSW.
-
-Trackfil works only with the (t)csh shell.
->>>>>>>> 856869f (Update TrackFil setup):README.md
 
 How to get Trackfil
 ------------------------------

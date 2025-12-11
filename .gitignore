@@ -2,6 +2,8 @@
 # Temporary/compiled files
 *.sav
 .DS_Store
+.env
+.idea
 
 
 # Local/temporary directories
